@@ -6,13 +6,22 @@
 * **Cluster 2:** Captures high-income individuals who are highly conservative with their money and have low spending scores.
 * **Cluster 3:** Defines older, low-to-moderate income individuals with low overall spending tendencies.
 * **Cluster 4:** Represents affluent, high-income individuals who exhibit exceptionally high spending scores.
-## Project Visuals
+# K-Means Customer Segmentation Pipeline
+
+## 📊 Project Visuals
 
 ### 1. The Elbow Curve Plot
-![Elbow Curve](screenshots/elbow_curve.png)
+The Elbow Method helps determine the optimal number of clusters ($K$) by looking for a clear "bend" in the curve.
+![Elbow Curve](elbow_curve.png)
 
-### 2. Cluster Scatter Plot
-![Cluster Scatter Plot](screenshots/cluster_scatter_plot.png)
+---
+
+### 2. Cluster Scatter Plot with Centroids
+This graph maps our standard customer data into 5 distinct spending segments, with the final mathematical centroids marked as a Red X.
+![Cluster Scatter Plot](cluster_scatter_plot.png)
+
+---
 
 ### 3. Custom Prediction Table Output
-![Custom Prediction Table](screenshots/custom_prediction_output.png)
+The following table shows our 10 real-world custom items alongside the exact Cluster ID assigned by our trained model.
+![Custom Prediction Table](custom_prediction_output.png)
